@@ -8,12 +8,16 @@ target = TARGET_USERNAME
 webhook_url = DISCORD_WEBHOOK_URL
 
 [webhook]
-; Recommended to not set this below 60 seconds.
-; How many seconds should pass before the script checks
-; if the target Twitter account has posted a new tweet again?
+; Set the interval time for checking if a new tweet was made by the user in seconds. Recommended to not set this below 60 seconds.
 interval = 60
-; Add all images from the tweet to the embed.
-; Can be "yes" or "no".
-multiple_images = yes
-; Should reply tweets be included?
-include_replies = yes
+
+[webhook_message]
+; All of these can be "yes" or "no"
+; Include all images from a tweet.
+all_images = no
+; Include replies to be fetched.
+replies = no
+; Include quotes/quote retweets to be fetched.
+quotes = no
+; Includes all images from quote/reply tweets.
+sub_images = no
