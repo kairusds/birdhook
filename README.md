@@ -3,6 +3,8 @@ Post the latest tweets from a Twitter account to a Discord channel using a webho
 
 Requires Python 3.10 and above.
 
+**NOTICE: The latest information fetched from Twitter might not always be up to date. This could be due to Twitter's rate-limiter.**
+
 ## Setup
 ###### I didn't include images because I'm too lazy, feel free to make a Pull Request to add them.
 0. Download this repository by clicking `Code > Download ZIP` or [this link](https://github.com/kairusds/birdhook/archive/master.zip) Then extract the ZIP file somewhere, and goto the extracted `birdhook-master` folder and open `Terminal` or `Command Prompt` inside of it.
