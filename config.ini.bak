@@ -1,0 +1,14 @@
+[twitter]
+# The Twitter account used for fetching the tweets, requires login.
+login = LOGIN_USERNAME
+; The Twitter account you want to fetch tweets from.
+target = TARGET_USERNAME
+
+[discord]
+webhook_url = DISCORD_WEBHOOK_URL
+
+[webhook]
+; Recommended to not set this below 60 seconds.
+; How many seconds should pass before the script checks
+; if the target Twitter account has posted a new tweet again?
+interval = 60
