@@ -1,5 +1,5 @@
 [twitter]
-# The Twitter account used for fetching the tweets, requires login.
+; The Twitter account used for fetching the tweets, requires login.
 login = LOGIN_USERNAME
 ; The Twitter account you want to fetch tweets from.
 target = TARGET_USERNAME
@@ -12,3 +12,8 @@ webhook_url = DISCORD_WEBHOOK_URL
 ; How many seconds should pass before the script checks
 ; if the target Twitter account has posted a new tweet again?
 interval = 60
+; Add all images from the tweet to the embed.
+; Can be "yes" or "no".
+multiple_images = yes
+; Should reply tweets be included?
+include_replies = yes
